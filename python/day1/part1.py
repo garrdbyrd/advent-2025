@@ -3,9 +3,10 @@
 
 import os
 
+
 class Lock:
     def __init__(self):
-        self.numbers = list(range(0,100))
+        self.numbers = list(range(0, 100))
         self.current_number = 50
         self.zero_counter = 0
 
@@ -42,6 +43,7 @@ def main():
         combination_lock.rotate(input)
 
     combination_lock.print_zero_counter()
+
 
 if __name__ == "__main__":
     main()
